@@ -6,6 +6,8 @@ const intl = new Intl.NumberFormat("en-US", {
   currency: "USD",
 });
 
+//trying check into git
+
 export default function Order() {
   const [pizzaTypes, setPizzaTypes] = useState([]);
   const [pizzaType, setPizzaType] = useState("pepperoni");
